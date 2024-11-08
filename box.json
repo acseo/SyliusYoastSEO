@@ -1,9 +1,0 @@
-{
-  "files": [
-    "./vendor/twig/twig/src/TwigTest.php"
-  ],
-  "directories-bin": [
-    "./PluginTemplate"
-  ],
-  "force-autodiscovery": true
-}
