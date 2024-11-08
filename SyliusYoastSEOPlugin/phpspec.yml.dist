@@ -1,0 +1,6 @@
+suites:
+    main:
+        namespace: Acseo\SyliusYoastSEOPlugin
+        psr4_prefix: Acseo\SyliusYoastSEOPlugin
+        src_path: src
+        spec_path: tests

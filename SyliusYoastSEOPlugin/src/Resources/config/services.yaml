@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Acseo\SyliusYoastSEOPlugin\:
+        resource: '../../*'
+        exclude: '../../{Entity,Migrations}'
+
+    Acseo\SyliusYoastSEOPlugin\Controller\:
+        resource: '../../Controller'
+        tags: [ 'controller.service_arguments' ]
+
