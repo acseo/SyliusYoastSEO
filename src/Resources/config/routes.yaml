@@ -1,0 +1,4 @@
+acseo_yoast_admin_index:
+  path: admin/yoast
+  controller: Acseo\SyliusYoastSEOPlugin\Controller\CustomProductController::getYoast
+  methods: [GET]
