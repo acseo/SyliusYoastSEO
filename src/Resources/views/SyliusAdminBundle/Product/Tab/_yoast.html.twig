@@ -1,0 +1,8 @@
+<a href="#" class="ui large blue button" data-product-id="{{ product.id }}">
+    {{ 'sylius.ui.yoast'|trans }}
+</a>
+<div id="yoast-container"></div>
+
+{% block javascripts %}
+    <script src="{{ asset('bundles/acseosyliusyoastseoplugin/assets/admin/js/yoast.js') }}"></script>
+{% endblock %}
